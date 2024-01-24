@@ -58,8 +58,7 @@
     }
   }
 
-
-  .no-products{
+  .no-products {
     height: calc(100vh - 50px - 100px);
     display: flex;
     justify-content: center;
@@ -67,5 +66,19 @@
     font-size: 30px;
     font-weight: 700;
     color: #666;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-page-wrapper {
+    header {
+      .sort-container {
+        .toggle-arrow {
+          height: 14px;
+          position: absolute;
+          right: 18px;
+        }
+      }
+    }
   }
 }
