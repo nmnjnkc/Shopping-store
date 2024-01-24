@@ -1,0 +1,35 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+    min-width: 85%;
+    min-height: 100vh;
+  
+    h2 {
+      margin: 60px 0;
+    }
+    p {
+      font-weight: 900;
+      font-size: 1.2em;
+    }
+    button{
+      width: 50%;
+      height: 50px;
+      margin-top: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: black;
+      color: #f3f3f3;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, border-color 0.3s ease,
+        box-shadow 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #edb964;
+      border-color: #edb964;
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+  

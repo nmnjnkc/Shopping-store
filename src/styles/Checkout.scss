@@ -1,0 +1,37 @@
+.pay-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: calc(100vh - 100px);
+
+}
+
+.pay-bttn {
+  display: flex; 
+  align-items: center; 
+  background-color: #edb964;
+  color: #fff;
+  padding: 12px 120px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  svg {
+    height: 25px;
+    margin-right: 5px;
+  }
+}
+
+.pay-bttn:hover {
+  background-color: #4caf50;
+}
+
+.react-confetti {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
