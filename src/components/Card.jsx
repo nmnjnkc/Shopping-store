@@ -29,7 +29,7 @@ const Card = ({ product }) => {
           <p>{product?.price} €</p>
         </div>
       </div>
-      <button onClick={handleAddToCartClick}>Add to curt</button>
+      <button onClick={handleAddToCartClick}>Add to bag</button>
     </div>
   );
 };

@@ -76,7 +76,7 @@ const HomePage = ({ searchValue }) => {
         <div className="sort-container">
           Sort by:
           <select onClick={handleToggleArrow} onChange={handleSelect}>
-            <option value="feature">Feature</option>
+            <option value="featured">Featured</option>
             <option value="priceLowToHigh">Price: Low - High</option>
             <option value="priceHighToLow">Price: High - Low</option>
           </select>
